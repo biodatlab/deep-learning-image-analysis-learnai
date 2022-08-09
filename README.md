@@ -1,2 +1,33 @@
-# dl-image-analysis
-Learn AI class for image analysis
+# Hands-on deep learning for image analysis with Pytorch: Learn AI
+
+เราได้รวบรวม Notebooks สำหรับการเรียนการสอนในวิชา _การเรียนรู้เชิงลึกสำหรับประมวลผลภาพแบบเน้นโค้ดด้วย Pytorch_
+โดยผู้เรียนสามารถเรียนบทเรียนได้จากเว็บไซต์ Learn AI จากนั้นสามารถทดลองทำแบบฝึกหัดจาก
+Notebooks ของแต่ละบทเรียน
+
+## บทที่ 1 พื้นฐานของโครงข่ายประสาทเทียม
+
+- การใช้ Pytorch เบื้องต้น
+- การสร้างโครงข่ายประสาทเทียมเบื้องต้น
+- องค์ประกอบต่างของการเขียนโครงข่ายประสาทเทียม (Dataset, DataLoader, Model, Optimizer, Scheduler)
+
+## บทที่ 2 การใช้โครงข่ายประสาทเทียมเพื่อแบ่งประเภทภาพ
+
+- สร้าง Convolutional Neural Network (CNN) ด้วย Pytorch
+- ใช้ Transfer learning ด้วย Pytorch และ Torchvision
+- ใช้ Transfer learning ด้วย FastAI
+- การ Augmentation ด้วยไลบรารี่ torchvision, albumentations
+
+## บทที่ 3 การใช้โครงข่ายประสาทเทียมเพื่อตรวจจับวัตถุ
+
+- ชุดข้อมูลของการตรวจจับวัตถุ COCO Format
+- ใช้ไลบรารี่ Icevision เพื่อตรวจจับวัตถุ
+
+## บทที่ 4 การใช้โครงข่ายประสาทเทียมเพื่อแบ่งประเภทพิกเซลจากภาพ
+
+- การสร้าง UNet เพื่อแบ่งประเภทพิกเซลจากภาพ
+- การใช้ FastAI เพื่อแบ่งประเภทพิกเซลจากภาพ
+
+## บทที่ 5 การใช้โครงข่ายประสาทเทียมเพื่อสร้างภาพ
+
+- การสร้าง GAN ด้วย Pytorch
+- การสร้างโมเดล Pix2Pix ด้วย Pytorch
